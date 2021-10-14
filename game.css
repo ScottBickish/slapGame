@@ -1,0 +1,18 @@
+.resize{
+  height:200px;
+  width: 200px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
+}
+main {
+  flex-grow: 1;
+ }
+
+ .hidden{
+   display:none !important;
+ }
