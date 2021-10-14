@@ -6,7 +6,11 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- FontAwesome 5.15.3 CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<!-- (Optional) Use CSS or JS implementation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- Bootstrap CSS v5.0.2 -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -20,14 +24,17 @@
     <div class="row justify-content-center">
       <div class="col-12 justify-content-center text-center">
         <div id="health" class="healthBar justify-content-center">
-          <h2 id="currenthealth">currenthealth is 1000</h2>
+          <h2 id="currenthealth">current health is 1000</h2>
         </div>
         <img class="resize" src="https://th.bing.com/th/id/OIP.s1rXRQx6JHdl0GI8yQ5wXwHaHa?pid=ImgDet&rs=1" alt="">
       </div>
     </div>
-    <button onclick="reset()" class="btn btn-danger text-center justify-content-center">Timer Start</button>
+    <button onclick="reset()" class="btn btn-danger text-center justify-content-center mt-2">Timer Start</button>
+    <div class="row container-fluid">
+      <div class="col bg-secondary text-center mt-5"><h2>Make your choice and defeat your opponent</h2><h1><i class="fas fa-arrow-circle-down"></i></h1></div>
+    </div>
   </main>
-  <footer id="footer" class="container-fluid text-center bg-warning hidden">
+  <footer id="footer" class="container-fluid text-center bg-warning hidden p-3">
     <button class="btn btn-primary text-center bg-dark text-light" onclick="pnch()">Punch Me</button>
 
     <button class="btn btn-primary text-start bg-dark text-light" onclick="slap()">Hit Me</button>
